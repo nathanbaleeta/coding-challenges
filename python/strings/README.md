@@ -11,6 +11,8 @@
 |7.| Abbreviator slicing | Write a function called abbreviator, given a string, returns the string if the string is less than 5 characters. Otherwise, returns the first four characters, followed by a ".". |
 |8.| How many | Write a function called how_many that, given a list of a number and a thing name, returns a grammatically correct sentence describing the number of things |
 |9.| Oxford comma | Write a function called commafy that, given a list of three or things, returns a list with commas |
+|9.| Lookup US states | Write a function called lookup_state that, given a US state abbreviation, returns the state's name
+''' |
 
 
 
