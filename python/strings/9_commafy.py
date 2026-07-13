@@ -8,6 +8,11 @@ def commafy(list) -> str:
         if i != list[-1]:
             new_string += i + ', '
     return new_string + "and " + list[-1]
+
+def commafy_v2(list) -> str:
+    list[-1] = "and " + list[-1]
+    
+    return ", ".join(list)
         
 
 if __name__ == "__main__": 
