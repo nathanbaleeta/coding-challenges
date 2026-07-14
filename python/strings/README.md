@@ -14,6 +14,7 @@
 |10.| Lookup US states | Write a function called lookup_state that, given a US state abbreviation, returns the state's name |
 |11.| Morsify | Write a function called morsify that, given an uppercase string, returns a string in morse code. Morse.py contains a dictionary mapping capital letters to morse code |
 |12.| Palindrome checker | Write a function is_palindrome(s) that takes a string and returns True if the string is a palindrome (reads the same forward and backward) and False otherwise. You should ignore capitalization, spaces, and punctuation. |
+|13.| Valid anagram | Write a function is_anagram(s, t)  that takes take stwo strings s and t amd returns True of t is an anagram of s, and False otherwise. An anagram is a word or phrase formed rearranging the letters of a different word or phrase, typically using all the original letters exactly once. |
 
 
 
