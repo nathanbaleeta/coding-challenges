@@ -12,6 +12,8 @@
 |8.| How many | Write a function called how_many that, given a list of a number and a thing name, returns a grammatically correct sentence describing the number of things |
 |9.| Oxford comma | Write a function called commafy that, given a list of three or things, returns a list with commas |
 |10.| Lookup US states | Write a function called lookup_state that, given a US state abbreviation, returns the state's name |
+|11.| Morsify | Write a function called morsify that, given an uppercase string, returns a string in morse code. Morse.py contains a dictionary 
+mapping capital letters to morse code |
 
 
 
