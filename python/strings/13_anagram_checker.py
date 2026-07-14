@@ -3,6 +3,7 @@ Write a function is_anagram(s, t)  that takes take stwo strings s and t amd retu
 An anagram is a word or phrase formed rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 '''
 
+"""
 def is_anagram(s: str, t: str) -> bool:
     if len(s) == len(t):
         for char in s:
@@ -11,6 +12,10 @@ def is_anagram(s: str, t: str) -> bool:
                     return True
                 else:
                     return False
+"""
+                
+def is_anagram(s: str, t: str) -> bool:
+    return sorted(s) == sorted(t)
                     
                 
 # Test cases
