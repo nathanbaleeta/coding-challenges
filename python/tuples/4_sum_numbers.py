@@ -4,11 +4,21 @@ Goal: Tuples can hold mixed data types. Write a function that takes a tuple and 
 
 def sum_numbers(tup: tuple) -> float:
     # Note: Python treats True as 1, so filter carefully!
+    """
     sum = 0
     for i in tup:
         if type(i) in (int, float):
             sum += i
     return sum
+    """
+
+    sum = 0
+    for i in tup:
+        if not isinstance(i, (str, bool)):
+            sum += i 
+    return sum
+
+
     
 # Test cases
 if __name__ == "__main__": 
