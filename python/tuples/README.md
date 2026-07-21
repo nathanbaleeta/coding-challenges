@@ -8,5 +8,6 @@
 |4.| Summing the Numbers (Skipping Non-Integers) | Tuples can hold mixed data types. Write a function that takes a tuple and returns the sum of only the numerical elements (integers and floats). | 
 |5.| Sort a List of Tuples by the Second Element | You are given a list of tuples representing items and their prices. Write a function that sorts this list in ascending order based on the price (the second element of each tuple). | 
 |6.| The Immutable "Edit" | Goal: Because tuples are immutable, you can't change them directly. Write a function that takes a tuple, an index, and a new value. It should return a new tuple with the value at that index updated. If the index is out of bounds, return the original tuple. | 
+|7.| Filter Duplicates (Preserving Order) | Goal: Write a function that takes a tuple with duplicate elements and returns a new tuple containing only the unique elements while keeping their original order. | 
 
 
