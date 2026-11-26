@@ -2,7 +2,7 @@
 Goal: Write a function that takes a string and returns a dictionary counting the occurrence of each character.
 """
 
-def char_frequency(text):
+def char_frequency(text: str) -> dict:
     char_counts = {}
 
     for char in text:
